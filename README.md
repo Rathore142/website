@@ -8,4 +8,6 @@
    - [list](homework/2list.html)
    - [table](homework/table2.html)
    - [input](/homework/input.html)
-  
+
+2. Practical
+   - [practical1](/homework/practical/index.html)
