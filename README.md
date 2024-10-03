@@ -4,6 +4,9 @@
 
 ---
 
+- [newpage](newpage.md)
+  
+
 1. homework
    - [list](homework/2list.html)
    - [table](homework/table2.html)
