@@ -13,3 +13,6 @@
    - [practical1](/homework/practical/index.html)
    - [login form](/homework/form2.html)
    - [second login form](/homework/form.html)
+
+3. Practical
+   - [blog page](/homework/page.html)
