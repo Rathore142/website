@@ -11,3 +11,5 @@
 
 2. Practical
    - [practical1](/homework/practical/index.html)
+   - [login form](/homework/form2.html)
+   - [second login form](/homework/form.html)
