@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 1;
+            margin: 1;
+            background-color: #ddd;
+            align-items: center;
+            display: block;
+        }
+        h2{
+            text-align: center;
+            font-size: 40px;
+        }
+        .container{
+            position: relative;
+            margin-left: 100px;
+            margin-top: 80px; 
+            border: 1px solid #be3030;
+            border-radius: 10px;
+            padding: 30px;
+            padding-left: 40px;
+            width: 70%;
+            background-color: aliceblue;
+            align-items: center;
+            box-shadow: 6px 8px 15px 0.1px #000;
+        }
+        label [for="name"],
+        label [for="email"],
+        label [for="password"],{
+        
+            padding: 5px;
+            font-size: 26px;
+            align-items: left;
+            text-align: :left;
+            
+        }
+        input [type="text"],
+        input [type="email"],
+        input [type="password"]{
+            margin-top: 10px;
+            margin-bottom:20px ;
+            width: 90% ;
+            height: 82% ;
+            padding: 6px;
+            border-radius: 4px;
+            border: 10px solid #676767;
+
+        } 
+        .btn{
+            width: 100px;
+            background-color: green;
+            padding: 10px;
+            color: white;
+            font-size: 18px;
+            border-radius: 5px;
+            border: 1px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+        }
+        .resetbtn {
+            width: 100px;
+            background-color: blue;
+            padding:10px;
+            color: aliceblue;
+            font-size: 18px;
+            border-radius: 1px solid #ddd;
+            margin-bottom: 10px;
+
+        }
+
+        label
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>login form</h2>
+        <form action="#" method="POST">
+            <label for="neme">enter your name</label>
+            <input type="text" id="name" name="name" required placeholder="enter your name">
+            <br>
+            <br>
+            <label for="email">enter your email</label>
+            <input type="email" id="email" name="email" required placeholder="enter your email"> 
+            <br>
+            <br>
+            <label for="password" > enter your password</label>
+            <input type="password" id="password" name="password" required placeholder="enter your password">
+            <br>
+            <button type="submit" class="btn"> submit</button> 
+            <button type="reset" class="resetbtn"> reset</button>
+
+
+        </form>
+    </div>
+</body>
+</html>

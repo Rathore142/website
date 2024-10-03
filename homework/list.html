@@ -1,34 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> list </title>
-</head>
-<body>
-    <h1>Ordered list </h1>
-    <p>An ordered list is a list where the order of items is significant. It uses numbers.</p>
-    <p>nested list </p>
-   <ol>
-    <li>
-      <li>  frontend</li>
-        <ul
-        <li>html</li>
-        <li>css</li>
-            <ul>
-                <li>css1</li>
-            <li>css2</li>
-            <li>css3</li>
-        </li>
-    </ul>
-    <li>
-        backend 
-             <ul>
-            <li>
-                css
-            </li>
-        </ul>
-    </li>
-   </ol>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: #b2b2b2;
+      }
+
+      .box {
+        width: 250 px;
+        height: 350px;
+        border: 3px solid #000;
+        padding: 20px;
+        margin-left: 100px;
+        margin-top: 100px;
+        border-radius: 10px;
+        box-shadow: 4px 4px 10px #000;
+        background-color: rgb(237, 240, 243);
+        font-size: 18px;
+        color: #ff0000;
+      }
+
+      input[type="text"] {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 7px;
+        border-radius: 10px;
+      }
+      input[type="email"] {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 7px;
+        border-radius: 10px;
+      }
+      input[type="password"] {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 7px;
+        border-radius: 10px;
+      }
+
+      label[for="name"] {
+        color: #4eb67f;
+      }
+
+      .btn {
+        padding: 15px;
+        background-color: #008cff;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 4px 4px 1px #000;
+        color: #ffffff;
+        margin-left: 20px;
+      }
+
+      .resetbtn {
+        padding: 15px;
+        background-color: #ff0000;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 4px 4px 1px #000;
+        color: #000000;
+        margin-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <form action="#" method="POST">
+        <label for="name">Enter your Name</label>
+        <input type="text" />
+        <label for="email">Enter your Email</label>
+        <input type="email" />
+        <label for="password">Enter your Password</label>
+        <input type="password" />
+        <br>
+        <button type="submit" class="btn">Submit</button>
+        <button type="reset" class="resetbtn">Reset</button>
+      </form>
+    </div>
+  </body>
 </html>
